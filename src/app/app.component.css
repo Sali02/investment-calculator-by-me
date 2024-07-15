@@ -1,0 +1,11 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  font-size: 1.4rem;
+}
+
+tr {
+  margin-right: 5rem;
+}

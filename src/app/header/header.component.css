@@ -1,0 +1,11 @@
+.header-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.cash-logo {
+ height: 50%;
+}

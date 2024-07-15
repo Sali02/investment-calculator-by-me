@@ -1,0 +1,42 @@
+<div class="maxi-container">
+  <form (ngSubmit)="onSubmit()">
+    <div class="container">
+      <div class="item-1">
+        <label for="initial-investment">Initial Investment</label>
+        <div class="input-center">
+          <input class="input-style" type="number" id="initial-investment" [(ngModel)]="calculateFormData.initialInvestment" name="initial-investment">
+        </div> 
+      </div>
+  
+      <div class="item-2">
+        <label for="annual-investment">Annual Investment</label>
+        <div class="input-center">
+          <input class="input-style" type="number" id="annual-investment" [(ngModel)]="calculateFormData.annualInvestment" name="annual-investment">
+        </div> 
+      </div>
+      
+      <div class="item-3">
+        <label for="return-investment">Return</label>
+        <div class="input-center">
+          <input class="input-style" type="number" id="return-investment" [(ngModel)]="calculateFormData.returnInvestment" name="return-investment">
+        </div>  
+      </div>
+    
+      <div class="item-4">
+        <label for="years">Years</label>
+        <div class="input-center">
+          <input class="input-style" type="number" id="years" [(ngModel)]="calculateFormData.years" name="years">
+        </div>
+      </div>
+        
+    
+      <div class="action item-5">
+        <button class="calculate-button" type="submit">Calculate</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+

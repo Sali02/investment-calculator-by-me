@@ -1,0 +1,95 @@
+.item-1 {
+  grid-area: initial-investment;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.item-2 {
+  grid-area: annual-investment;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.item-3 {
+  grid-area: return-investment;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.item-4 {
+  grid-area: years;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.item-5 {
+  grid-area: action;
+  text-align: center;
+}
+
+label {
+  text-align: center;
+}
+
+input {
+  width: 20rem;
+  text-align: center;
+}
+
+.input-center {
+  text-align: center;
+}
+
+
+
+.container {
+  display: grid;
+  width: 50%;
+  /* grid-template-rows: 4rem 4rem;
+  grid-template-columns: 4rem 4rem 4rem; */
+  grid-template-areas: 
+    'initial-investment annual-investment'
+    'return-investment years'
+    'action action';
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+button {
+  background-color: rgb(14, 148, 70);
+  color: white;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  padding: 0.6rem 5rem;
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+.calculate-button:hover{
+  background-color: rgb(24, 88, 51);
+  cursor: pointer;
+}
+
+.input-style {
+  background-color: rgb(14, 148, 70);
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 0.6rem 7rem;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+.input-style:hover {
+  background-color: rgb(24, 88, 51);
+  cursor: pointer;
+}
